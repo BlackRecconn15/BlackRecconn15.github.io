@@ -1,0 +1,63 @@
+body {
+    font: 200 14px 'Poppins', sans-serif;
+    padding: 10px 20px ;
+    line-height: 14px;
+}
+
+.circular {
+    border-radius: 50%;
+    height: 120px;
+}
+
+.bolt {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 500;
+}
+
+.react {
+   color: #1487bd;
+}
+
+.vue {
+    color: #14bd60;
+ }
+
+ .js {
+    color: #c7ca16;
+ }
+ /* .parrafos {
+    padding: 10px;
+ } */
+
+#datos {
+    display: flex;
+    /* border: 2px solid #000; */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 450px;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    padding-left: 10px;
+    /* background-color: #14bd60; */
+    width: 300px;
+    height: 120px;
+}
+
+#imagen {
+    padding-right: 20px;
+    border-right: 2px solid #afadad;
+}
+
+#footer {
+    display: flex;
+    gap: 15px;
+}
